@@ -1,6 +1,6 @@
 NOTE: Add a link to Trello, another planning tool, or replace this file with your own planning file.
 
-A website dedicated to my mom's accounting business.
+A website dedicated to my mom's accounting business, Express Bookkeeping & Tax Inc. (EBTI)
 
 Pages:
     1. Homepage
