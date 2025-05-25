@@ -5,106 +5,13 @@
     pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
 */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #58257d;
-}
-
-
-/* header */
-header{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    background-color: #ffffff;
-    color: #58257d;
-}
-
-
-/* logo */
-.logo-place {
-  display: flex;
-  align-items: center;
-}
-.logo-img {
-  height: auto;
-  width: auto;
-}
-
-
-/* EBTU header */
-.ebti {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #58257d;
-}
-
-/* navigation buttons */
-/* referenced from: https://www.w3schools.com/html/html_lists_unordered.asp */
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #293d6b;
-}
-.menu a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    padding: 15px 30px;
-    background-color: #293d6b;
-    color: #ffffff;
-}
-
-.menu a:hover {
-    background-color: #8cabc2;
-}
-
-/* 
-    active referenced: https://www.w3schools.com/cssref/sel_active.php 
-*/
-.menu a:active{
-    background-color: #dde8ee;
-}
-
-/* referenced: referenced: https://www.w3schools.com/css/css3_buttons.asp */
-.disabled {
-    opacity: 0.7;
-}
-
-
-/* main */
-main {
-    background-color: #cfe2f3;
-    padding: 25px 25px 25px;
-    margin: auto;
-    /* padding: 25px 25px 25px;
-    margin: 10px 50px 25px;
-    border-radius: 20px;*/
-}
-
-.welcome {
-    background-color: #ffffff;
-    padding: 25px 25px 25px;
-    margin: 10px 25px 25px;
-    border-radius: 20px;
-}
 
 .form {
     background-color: #ffffff;
     padding: 25px 25px 25px;
     margin: 10px 25px 25px;
     border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
 }
 
 .location {
@@ -113,13 +20,3 @@ main {
     margin: 10px 25px 25px;
     border-radius: 20px;
 }
-
-/* footer */
-footer {
-    height: 50px;
-    width: 100%;
-    padding: 10px;
-    background-color: #293d6b;
-    color: #ffffff;
-}
-
