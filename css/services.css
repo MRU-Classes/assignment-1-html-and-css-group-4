@@ -77,18 +77,44 @@ header{
     background-color: #dde8ee;
 }
 
-/* referenced: referenced: https://www.w3schools.com/css/css3_buttons.asp 
+/* referenced: referenced: https://www.w3schools.com/css/css3_buttons.asp */
 .disabled {
-    opacity: 0.5;
+    opacity: 0.7;
 }
-*/
+
 
 /* main */
 main {
-    background-color: #ebebeb;
-    padding: 25px;
+    background-color: #cfe2f3;
+    padding: 25px 25px 25px;
     margin: auto;
-    /* border-radius: 20px; */
+    /* padding: 25px 25px 25px;
+    margin: 10px 50px 25px;
+    border-radius: 20px;*/
+}
+
+.welcome {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
+}
+
+.table {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
+    border-width: 0;
+    box-shadow: 4px 4px 4px #293d6b;
+}
+
+.location {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
 }
 
 /* footer */
