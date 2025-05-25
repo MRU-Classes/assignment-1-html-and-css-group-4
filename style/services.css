@@ -4,8 +4,13 @@
     Some information was obtained from lecture content as well
     pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
+
+    table styling referenced: https://www.w3schools.com/html/html_table_borders.asp
+    table sizing referenced: https://www.w3schools.com/html/html_table_sizes.asp
+
 */
 
+/*
 .table {
     background-color: #ffffff;
     padding: 25px 25px 25px;
@@ -14,6 +19,34 @@
     border-width: 0;
     box-shadow: 4px 4px 4px #293d6b;
 }
+*/
+
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #58257d;
+}
+
+thead {
+    height: 50px;
+    border-style: solid;
+    border-color: #58257d;
+    border-width: 4px;
+}
+
+tr {
+    height: 30px;
+}
+
+th, td {
+    border-style: solid;
+    border-color: #58257d;
+    border-width: 2px;
+}
+
+
 
 .location {
     background-color: #ffffff;
