@@ -1,18 +1,33 @@
 NOTE: Add a link to Trello, another planning tool, or replace this file with your own planning file.
 
+
 A website dedicated to my mom's accounting business, Express Bookkeeping & Tax Inc. (EBTI)
 
 Pages:
-    1. Homepage
-        - Includes a business logo (top left)
-        - A quick summary about the business, services, etc...
-        - List of navigable points (about, contact)
-        - External links TBD
+- The current page will be highlighted a different colour from the rest of the menu options
+- When hovering, a different colour is used to differentiate between idle or hovering
 
+    1. Homepage (index.html)
+        - Includes a business logo (top with business name)
+        - List of navigable points, menu (about, contact)
+        - A same page navigation to information about company (about services, location)
+        - A quick introduction to the company
+        - External links to Google maps for directions
+
+OMITTED FOR NOW 
+{
     2. About Us
         - Intended to provide information regarding services provided
         - A bit of information regarding the business journey to present day
         - A bit about business owner
+}
+
+    2. Services
+        - Logo
+        - Menu to navigate between pages
+        - List of services provided along with pricings
 
     3. Contacts
+        - Logo
+        - Menu to navigate between pages
         - Method for contacting (may be altered just for assignment purposes)
