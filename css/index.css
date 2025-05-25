@@ -75,6 +75,8 @@ header{
 main {
     background-color: #ebebeb;
     padding: 25px;
+    margin: auto;
+    /* border-radius: 20px; */
 }
 
 /* footer */
