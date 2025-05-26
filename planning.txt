@@ -14,14 +14,6 @@ Pages:
         - A quick introduction to the company
         - External links to Google maps for directions
 
-OMITTED FOR NOW 
-{
-    2. About Us
-        - Intended to provide information regarding services provided
-        - A bit of information regarding the business journey to present day
-        - A bit about business owner
-}
-
     2. Services
         - Logo
         - Menu to navigate between pages
