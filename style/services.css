@@ -6,6 +6,8 @@
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
 
     table styling referenced: https://www.w3schools.com/html/html_table_borders.asp
+                            : https://www.w3schools.com/html/html_table_styling.asp
+
     table sizing referenced: https://www.w3schools.com/html/html_table_sizes.asp
 
 */
@@ -30,7 +32,9 @@ table {
 }
 
 thead {
+    background-color: 	#cfe2f3;
     height: 50px;
+    font-size: 17px;
     border-style: solid;
     border-color: #58257d;
     border-width: 4px;
@@ -40,13 +44,25 @@ tr {
     height: 30px;
 }
 
+tbody {
+    background-color: 	#fffdf7;
+}
+
+tr:nth-child(even) {
+    background-color: 	#cfe2f3;
+}
+
 th, td {
+    padding: 10px;
     border-style: solid;
     border-color: #58257d;
     border-width: 2px;
 }
 
-
+caption {
+    padding: 5px;
+    font-size: 20px;
+}
 
 .location {
     background-color: #ffffff;
