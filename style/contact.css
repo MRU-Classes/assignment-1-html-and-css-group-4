@@ -4,14 +4,11 @@
     Some information was obtained from lecture content as well
     pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
-*/
 
-/*
-form {
-    display: flex;
-    flex-direction: column;
-}
-*/
+    form & box referenced from in class notes and: https://www.w3schools.com/css/css_form.asp
+
+    */
+
 .form {
     background-color: #ffffff;
     padding: 25px 25px 25px;
@@ -27,11 +24,34 @@ form {
     border-radius: 20px;
 }
 
-/*
-[class$="required"]{
-    color: red;
+input[type=text], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-*/
+
+input[type=submit] {
+    width: 25%;
+    padding: 15px 20px;
+    margin: 10px 200px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+
+input[type=reset] {
+    width: 25%;
+    padding: 15px 20px;
+    margin: 10px 200px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: lightcoral;
+}
 
 /* red asterisk */
 ast{
