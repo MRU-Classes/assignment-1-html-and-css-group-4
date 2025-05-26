@@ -40,7 +40,7 @@ input[type=submit] {
     display: inline-block;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: lightgreen;
+    background-color: 	#8cabc2;
 }
 
 input[type=reset] {
@@ -50,7 +50,7 @@ input[type=reset] {
     display: inline-block;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: lightcoral;
+    background-color: 	#ebebeb;
 }
 
 /* red asterisk */
