@@ -82,14 +82,11 @@ header{
     opacity: 0.7;
 }
 
-.menu-list{
-    height: auto;
-}
 
 /* main */
 main {
     background-color: #cfe2f3;
-    padding: 25px 25px 25px;
+    padding: 25px 250px 25px;
     margin: auto;
     /* padding: 25px 25px 25px;
     margin: 10px 50px 25px;
@@ -104,7 +101,7 @@ main {
     box-shadow: 4px 4px 4px #293d6b;
 }
 
-li {
+.list-details {
     height: 25px;
 }
 

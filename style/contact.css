@@ -6,6 +6,12 @@
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
 */
 
+/*
+form {
+    display: flex;
+    flex-direction: column;
+}
+*/
 .form {
     background-color: #ffffff;
     padding: 25px 25px 25px;
