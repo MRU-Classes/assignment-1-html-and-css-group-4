@@ -28,33 +28,3 @@
     box-shadow: 4px 4px 4px #293d6b;
 }
 
-.top {
-    list-style-type: none;
-    margin: -50px 875px;
-    background-color: #767bb2;
-}
-
-.top a {
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    padding: 15px 30px;
-    background-color: #767bb2;
-    color: #ffffff;
-    /*
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    */
-}
-
-.top a:hover {
-    background-color: #8cabc2;
-}
-
-.top a:active{
-    background-color: #dde8ee;
-}
