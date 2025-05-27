@@ -6,6 +6,11 @@
     pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
 */
 
+.emphasize-letter::first-letter {
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 .abt-services {
     background-color: #ffffff;
     padding: 25px 25px 25px;
