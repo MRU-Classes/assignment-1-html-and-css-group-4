@@ -52,8 +52,3 @@ input[type=reset] {
     box-sizing: border-box;
     background-color: 	#ebebeb;
 }
-
-/* red asterisk */
-ast{
-    color: red;
-}
