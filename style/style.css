@@ -102,6 +102,35 @@ main {
     height: 25px;
 }
 
+/* return to top button */
+/* referenced for top button positioning: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top */
+.top {
+    list-style-type: none;
+    padding: 25px 0px 25px;
+    margin: 0px;
+    display: flex;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.top a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #767bb2;
+    color: #ffffff;
+}
+
+.top a:hover {
+    background-color: #8cabc2;
+}
+
+.top a:active {
+    background-color: #dde8ee;
+}
+
 
 /* footer */
 footer {
